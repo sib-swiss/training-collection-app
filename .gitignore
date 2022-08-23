@@ -1,0 +1,7 @@
+*.txt
+.Rproj.user
+.env.R
+old/
+*.rds
+.DS_Store
+rsconnect/
