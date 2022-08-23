@@ -1,4 +1,3 @@
-*.txt
 .Rproj.user
 .env.R
 old/
