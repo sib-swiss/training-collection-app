@@ -1,6 +1,6 @@
-library(shinyjqui)
 library(DT)
 library(shiny)
+library(shinyWidgets)
 
 source("github_api.R")
 
@@ -45,16 +45,14 @@ ui <- fluidPage(
                "sib-swiss/training-collection-app")
              ),
            linebreaks(1),
-           orderInput('source_topics', 
-                      'Choose from the following topics 
-                      (or use the search functionality below):',
-                      items = all_topics,
-                      as_source = TRUE, connect = 'selected_topics',
-                      width = '900px'),
-           linebreaks(2),
-           orderInput('selected_topics', 'Drag topics here:', 
-                      items = NULL,
-                      placeholder = 'Drag items here...')
+           checkboxGroupButtons(
+             inputId = "selected_topics",
+             label = "Browse through all repos, or select topics here:", 
+             choices = all_topics, 
+             status = "light",
+             individual = TRUE,
+             checkIcon = list(yes = icon("ok", lib = "glyphicon"))
+           )
     )
   ),
   hr(),
