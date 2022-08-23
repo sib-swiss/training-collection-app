@@ -34,8 +34,16 @@ ui <- fluidPage(
            p(
              strong("Author:"),
              "Geert van Geest",
-             a(href="mailto:geert.vangeest@sib.swiss", "geert.vangeest@sib.swiss")
+             a(href="mailto:geert.vangeest@sib.swiss",
+               "geert.vangeest@sib.swiss")
            ),
+           p(
+             icon("console", lib = "glyphicon"),
+             strong("Source code:"),
+             a(href="https://github.com/sib-swiss/training-collection-app", 
+               target="_blank",
+               "sib-swiss/training-collection-app")
+             ),
            linebreaks(1),
            orderInput('source_topics', 
                       'Choose from the following topics 
