@@ -1,6 +1,5 @@
 swcarpentry/shell-novice	UNIX shell
 datacarpentry/shell-genomics	UNIX shell
-ISUgenomics/bioinformatics-workbook	General
 hbctraining/Intro-to-shell-flipped	UNIX shell
 sib-swiss/first-steps-with-python-training	Python
 swcarpentry/python-novice-inflammation	Python
@@ -12,7 +11,7 @@ PlantsAndPython/PlantsAndPython	Python
 sib-swiss/first-steps-with-R-training	R
 swcarpentry/r-novice-gapminder	R
 hbctraining/Intro-to-R-flipped	R
-hbctraining/Training-modules	General
+hbctraining/Training-modules	"General, Python, R, Rmarkdown, UNIX shell, Git, Enrichment Analysis, Public Data, Visualization, Variant analysis, RNA-seq, Transcriptomics"
 CompEpigen/BasicR	R
 biocorecrg/CRG_RIntroduction_2021	R
 biocorecrg/CRG_R_tidyverse_2021	R
@@ -45,36 +44,33 @@ waldronlab/enrichOmics	"R, Enrichment Analysis"
 DavisLaboratory/GenesetAnalysisWorkflow	"R, Enrichment Analysis"
 waldronlab/MultiAssayWorkshop	"Multi-omics, Public Data"
 sib-swiss/enrichment-analysis-training	"R, Enrichment Analysis"
-sib-swiss/RNAseq-introduction-training	Transcriptomics
-carpentries-incubator/bioc-rnaseq	Transcriptomics
-ISUgenomics/bioinformatics-workbook	General
-ISUgenomics/bioinformatics-workbook	General
-hbctraining/Intro-to-rnaseq-hpc-salmon-flipped	Transcriptomics
-hbctraining/DGE_workshop_salmon_online	Transcriptomics
-bioinformatics-core-shared-training/Bulk_RNASeq_Course_Nov21	Transcriptomics
-stemangiola/bioc_2020_tidytranscriptomics	"Transcriptomics, R"
-XueyiDong/RNAseq123workshop	Transcriptomics
-biocorecrg/RNAseq_course_2019	Transcriptomics
+sib-swiss/RNAseq-introduction-training	"Transcriptomics, RNA-seq"
+carpentries-incubator/bioc-rnaseq	"Transcriptomics, RNA-seq"
+hbctraining/Intro-to-rnaseq-hpc-salmon-flipped	"Transcriptomics, RNA-seq"
+hbctraining/DGE_workshop_salmon_online	"Transcriptomics, RNA-seq"
+bioinformatics-core-shared-training/Bulk_RNASeq_Course_Nov21	"Transcriptomics, RNA-seq"
+stemangiola/bioc_2020_tidytranscriptomics	"Transcriptomics, RNA-seq, R"
+XueyiDong/RNAseq123workshop	"Transcriptomics, RNA-seq"
+biocorecrg/RNAseq_course_2019	"Transcriptomics, RNA-seq"
 hbctraining/Intro-to-ChIPseq	ChIP-seq
 bioinformatics-core-shared-training/Quantitative-ChIPseq-Workshop	ChIP-seq
-haibol2016/ATACseqQCWorkshop	ATAC-seq
+haibol2016/ATACseqQCWorkshop	"ATAC-seq, Epigenetics"
 hukai916/IntegratedChIPseqWorkshop	ChIP-seq
-sib-swiss/single-cell-training	"Single Cell, Transcriptomics"
-NBISweden/single-cell_sib_scilifelab_2021	"Single Cell, Transcriptomics"
-fmicompbio/adv_scrnaseq_2020	"Single Cell, Transcriptomics"
-bioinformatics-core-shared-training/UnivCambridge_ScRnaSeq_Nov2021	"Single Cell, Transcriptomics"
-nbisweden/workshop-scRNAseq	"Single Cell, Transcriptomics"
-LeidenCBC/MGC-BioSB-SingleCellAnalysis2021	"Single Cell, Transcriptomics"
-hbctraining/scRNA-seq_online	"Single Cell, Transcriptomics"
-yunshun/SingleCellWorkshop	"Single Cell, Transcriptomics"
-kstreet13/bioc2020trajectories	"Single Cell, Transcriptomics"
-NBISweden/excelerate-scRNAseq	"Single Cell, Transcriptomics"
+sib-swiss/single-cell-training	"Single Cell, Transcriptomics, RNA-seq"
+NBISweden/single-cell_sib_scilifelab_2021	"Single Cell, Transcriptomics, RNA-seq"
+fmicompbio/adv_scrnaseq_2020	"Single Cell, Transcriptomics, RNA-seq"
+bioinformatics-core-shared-training/UnivCambridge_ScRnaSeq_Nov2021	"Single Cell, Transcriptomics, RNA-seq"
+nbisweden/workshop-scRNAseq	"Single Cell, Transcriptomics, RNA-seq"
+LeidenCBC/MGC-BioSB-SingleCellAnalysis2021	"Single Cell, Transcriptomics, RNA-seq"
+hbctraining/scRNA-seq_online	"Single Cell, Transcriptomics, RNA-seq"
+yunshun/SingleCellWorkshop	"Single Cell, Transcriptomics, RNA-seq"
+kstreet13/bioc2020trajectories	"Single Cell, Transcriptomics, RNA-seq"
+NBISweden/excelerate-scRNAseq	"Single Cell, Transcriptomics, RNA-seq"
 sib-swiss/NGS-variants-training	"NGS analysis, Variant analysis"
-ISUgenomics/bioinformatics-workbook	General
+ISUgenomics/bioinformatics-workbook	"General, UNIX shell, Data Management, Transcriptomics, RNA-seq, Genome Assembly, Genome Annotation, Comparative Genomics, Variant analysis, Metagenomics, ATAC-seq, Epigenetics, Visualization, Pipelines, Nextflow"
 PapenfussLab/IntroductionToGenomicsWorkshop	"Genomics, NGS analysis"
 waldronlab/CNVWorkshop	"NGS analysis, Variant analysis"
 sateeshperi/nextflow_varcal	"Pipelines, Nextflow"
-ISUgenomics/bioinformatics-workbook	General
 waldronlab/curatedMetagenomicDataAnalyses	Metagenomics
 sib-swiss/containers-introduction-training	"Containers, Docker, Singularity"
 carpentries-incubator/docker-introduction	"Containers, Docker"
@@ -90,7 +86,7 @@ biocorecrg/ELIXIR_containers_nextflow	"Containers, Nextflow"
 snakemake/snakemake	"Pipelines, Snakemake"
 carpentries-incubator/snakemake-novice-bioinformatics	"Pipelines, Snakemake"
 carpentries-incubator/workflows-snakemake	"Pipelines, Snakemake"
-galaxyproject/training-material	General
+galaxyproject/training-material	"General, Genome Assembly, Epigenetics, Genome Annotation, Metagenomics, NGS analysis, Statistics, Machine Learning, Transcriptomics, RNA-seq, Variant analysis, Visualization"
 liubuntu/Bioc2020Rcwl	"Pipelines, CWL"
 BiodataAnalysisGroup/intro-to-cwl-docker	"Pipelines, CWL, Containers, Docker"
 carpentries-incubator/hpc-intro	HPC

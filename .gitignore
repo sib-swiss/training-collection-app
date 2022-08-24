@@ -4,3 +4,4 @@ old/
 *.rds
 .DS_Store
 rsconnect/
+.Rhistory
