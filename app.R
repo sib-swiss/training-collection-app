@@ -9,8 +9,8 @@ repo_df <- repo_info$repo_df
 tag_df <- repo_info$tag_df
 
 # get a vector of all tags/topics
-all_topics <- unique(tag_df$tag)
-all_topics <- all_topics[order(all_topics)]
+tag_table <- table(tag_df$tag)
+all_topics <- names(tag_table[order(tag_table, decreasing = TRUE)])
 
 # create a shiny tag with column explanations
 # show an explanation upon hovering over column names
