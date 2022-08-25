@@ -10,7 +10,9 @@ tag_df <- repo_info$tag_df
 
 # get a vector of all tags/topics
 tag_table <- table(tag_df$tag)
-all_topics <- names(tag_table[order(tag_table, decreasing = TRUE)])
+tag_table <- tag_table[order(tag_table, decreasing = TRUE)]
+all_topics <- names(tag_table)
+names(all_topics) <- paste0(all_topics, " (", tag_table, ")")
 
 # create a shiny tag with column explanations
 # show an explanation upon hovering over column names
@@ -52,7 +54,7 @@ ui <- fluidPage(
            checkboxGroupButtons(
              inputId = "selected_topics",
              label = "Browse through all repos, or select topics here:", 
-             choices = all_topics, 
+             choices = names(all_topics), 
              status = "light",
              individual = TRUE,
              checkIcon = list(yes = icon("ok", lib = "glyphicon"))
@@ -75,7 +77,9 @@ server <- function(input, output) {
     if(length(input$selected_topics) == 0){
       return(repo_df)
     }
-    selected_slugs <- tag_df$slug[tag_df$tag %in% input$selected_topics]
+    selected_topics <- input$selected_topics
+    selected_tags <- all_topics[selected_topics]
+    selected_slugs <- tag_df$slug[tag_df$tag %in% selected_tags]
     out_df <- repo_df[unique(selected_slugs),]
     out_df <- out_df[order(out_df$Stargazers, decreasing = TRUE),]
     return(out_df)
