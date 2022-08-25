@@ -87,7 +87,7 @@ snakemake/snakemake	"Pipelines, Snakemake"
 carpentries-incubator/snakemake-novice-bioinformatics	"Pipelines, Snakemake"
 carpentries-incubator/workflows-snakemake	"Pipelines, Snakemake"
 galaxyproject/training-material	"General, Genome Assembly, Epigenetics, Genome Annotation, Metagenomics, NGS analysis, Statistics, Machine Learning, Transcriptomics, RNA-seq, Variant Analysis, Visualization"
-Liubuntu/Bioc2020Rcwl	"Pipelines, CWL"
+Liubuntu/Bioc2020RCWL	"Pipelines, CWL"
 BiodataAnalysisGroup/intro-to-cwl-docker	"Pipelines, CWL, Containers, Docker"
 carpentries-incubator/hpc-intro	HPC
 ngs-docs/2021-august-remote-computing	HPC
